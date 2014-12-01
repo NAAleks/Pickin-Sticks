@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		FAB46CDD1A2BEE5400181DF8 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */; };
 		FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDF1A2BEE5400181DF8 /* main.cpp */; };
-		FAB46CE31A2BEE5400181DF8 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CE21A2BEE5400181DF8 /* cute_image.jpg */; };
-		FAB46CE51A2BEE5400181DF8 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CE41A2BEE5400181DF8 /* nice_music.ogg */; };
-		FAB46CE71A2BEE5400181DF8 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CE61A2BEE5400181DF8 /* sansation.ttf */; };
-		FAB46CE91A2BEE5400181DF8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CE81A2BEE5400181DF8 /* icon.png */; };
+		FAB46CF21A2BF1D700181DF8 /* Baurn_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */; };
+		FAB46CF31A2BF1D700181DF8 /* JacobKnight_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CF01A2BF1D700181DF8 /* JacobKnight_Moosader.png */; };
+		FAB46CF41A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */; };
+		FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CF51A2BF1EF00181DF8 /* Game.cpp */; };
+		FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CF81A2BF3BA00181DF8 /* System.cpp */; };
+		FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */; };
+		FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46D051A2BFE1D00181DF8 /* Back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +24,16 @@
 		FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		FAB46CDE1A2BEE5400181DF8 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		FAB46CDF1A2BEE5400181DF8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		FAB46CE21A2BEE5400181DF8 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		FAB46CE41A2BEE5400181DF8 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		FAB46CE61A2BEE5400181DF8 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		FAB46CE81A2BEE5400181DF8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baurn_Moosader.png; sourceTree = "<group>"; };
+		FAB46CF01A2BF1D700181DF8 /* JacobKnight_Moosader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JacobKnight_Moosader.png; sourceTree = "<group>"; };
+		FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LegacyOfZudora_Moosader.png; sourceTree = "<group>"; };
+		FAB46CF51A2BF1EF00181DF8 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		FAB46CF61A2BF1EF00181DF8 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		FAB46CF81A2BF3BA00181DF8 /* System.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = System.cpp; sourceTree = "<group>"; };
+		FAB46CF91A2BF3BA00181DF8 /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Environment.cpp; path = ../Environment.cpp; sourceTree = "<group>"; };
+		FAB46CFF1A2BF9C700181DF8 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Environment.h; path = ../Environment.h; sourceTree = "<group>"; };
+		FAB46D051A2BFE1D00181DF8 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,12 @@
 				FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */,
 				FAB46CDE1A2BEE5400181DF8 /* ResourcePath.hpp */,
 				FAB46CDF1A2BEE5400181DF8 /* main.cpp */,
+				FAB46CF51A2BF1EF00181DF8 /* Game.cpp */,
+				FAB46CF61A2BF1EF00181DF8 /* Game.h */,
+				FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */,
+				FAB46CFF1A2BF9C700181DF8 /* Environment.h */,
+				FAB46CF81A2BF3BA00181DF8 /* System.cpp */,
+				FAB46CF91A2BF3BA00181DF8 /* System.h */,
 				FAB46CE11A2BEE5400181DF8 /* Resources */,
 				FAB46CDA1A2BEE5400181DF8 /* Supporting Files */,
 			);
@@ -77,10 +92,10 @@
 		FAB46CE11A2BEE5400181DF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FAB46CE21A2BEE5400181DF8 /* cute_image.jpg */,
-				FAB46CE41A2BEE5400181DF8 /* nice_music.ogg */,
-				FAB46CE61A2BEE5400181DF8 /* sansation.ttf */,
-				FAB46CE81A2BEE5400181DF8 /* icon.png */,
+				FAB46D051A2BFE1D00181DF8 /* Back.png */,
+				FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */,
+				FAB46CF01A2BF1D700181DF8 /* JacobKnight_Moosader.png */,
+				FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,10 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB46CE91A2BEE5400181DF8 /* icon.png in Resources */,
-				FAB46CE71A2BEE5400181DF8 /* sansation.ttf in Resources */,
-				FAB46CE51A2BEE5400181DF8 /* nice_music.ogg in Resources */,
-				FAB46CE31A2BEE5400181DF8 /* cute_image.jpg in Resources */,
+				FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */,
+				FAB46CF41A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png in Resources */,
+				FAB46CF31A2BF1D700181DF8 /* JacobKnight_Moosader.png in Resources */,
+				FAB46CF21A2BF1D700181DF8 /* Baurn_Moosader.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */,
+				FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */,
+				FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */,
 				FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */,
 				FAB46CDD1A2BEE5400181DF8 /* ResourcePath.mm in Sources */,
 			);
@@ -319,6 +337,7 @@
 				FAB46CEE1A2BEE5400181DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
