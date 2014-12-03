@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */; };
+		FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA23DF011A2E1A78008E8F7B /* Arial.ttf */; };
 		FAB46CDD1A2BEE5400181DF8 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */; };
 		FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDF1A2BEE5400181DF8 /* main.cpp */; };
 		FAB46CF21A2BF1D700181DF8 /* Baurn_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */; };
-		FAB46CF31A2BF1D700181DF8 /* JacobKnight_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CF01A2BF1D700181DF8 /* JacobKnight_Moosader.png */; };
 		FAB46CF41A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */; };
 		FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CF51A2BF1EF00181DF8 /* Game.cpp */; };
 		FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CF81A2BF3BA00181DF8 /* System.cpp */; };
 		FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */; };
 		FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46D051A2BFE1D00181DF8 /* Back.png */; };
+		FAC1894B1A2CC75D008D7CAD /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC189491A2CC75D008D7CAD /* MainMenu.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackGround.png; sourceTree = "<group>"; };
+		FA23DF011A2E1A78008E8F7B /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 		FAB46CD71A2BEE5400181DF8 /* Pickin' Sticks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pickin' Sticks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB46CDB1A2BEE5400181DF8 /* Pickin' Sticks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickin' Sticks-Info.plist"; sourceTree = "<group>"; };
 		FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		FAB46CDE1A2BEE5400181DF8 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		FAB46CDF1A2BEE5400181DF8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baurn_Moosader.png; sourceTree = "<group>"; };
-		FAB46CF01A2BF1D700181DF8 /* JacobKnight_Moosader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JacobKnight_Moosader.png; sourceTree = "<group>"; };
 		FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LegacyOfZudora_Moosader.png; sourceTree = "<group>"; };
 		FAB46CF51A2BF1EF00181DF8 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		FAB46CF61A2BF1EF00181DF8 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
@@ -34,6 +37,8 @@
 		FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Environment.cpp; path = ../Environment.cpp; sourceTree = "<group>"; };
 		FAB46CFF1A2BF9C700181DF8 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Environment.h; path = ../Environment.h; sourceTree = "<group>"; };
 		FAB46D051A2BFE1D00181DF8 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		FAC189491A2CC75D008D7CAD /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		FAC1894A1A2CC75D008D7CAD /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,8 @@
 				FAB46CDE1A2BEE5400181DF8 /* ResourcePath.hpp */,
 				FAB46CDF1A2BEE5400181DF8 /* main.cpp */,
 				FAB46CF51A2BF1EF00181DF8 /* Game.cpp */,
+				FAC189491A2CC75D008D7CAD /* MainMenu.cpp */,
+				FAC1894A1A2CC75D008D7CAD /* MainMenu.h */,
 				FAB46CF61A2BF1EF00181DF8 /* Game.h */,
 				FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */,
 				FAB46CFF1A2BF9C700181DF8 /* Environment.h */,
@@ -92,9 +99,10 @@
 		FAB46CE11A2BEE5400181DF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA23DF011A2E1A78008E8F7B /* Arial.ttf */,
 				FAB46D051A2BFE1D00181DF8 /* Back.png */,
+				FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */,
 				FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */,
-				FAB46CF01A2BF1D700181DF8 /* JacobKnight_Moosader.png */,
 				FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */,
 			);
 			name = Resources;
@@ -159,7 +167,8 @@
 			files = (
 				FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */,
 				FAB46CF41A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png in Resources */,
-				FAB46CF31A2BF1D700181DF8 /* JacobKnight_Moosader.png in Resources */,
+				FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */,
+				FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */,
 				FAB46CF21A2BF1D700181DF8 /* Baurn_Moosader.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */,
+				FAC1894B1A2CC75D008D7CAD /* MainMenu.cpp in Sources */,
 				FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */,
 				FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */,
 				FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */,

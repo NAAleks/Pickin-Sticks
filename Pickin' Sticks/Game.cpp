@@ -17,9 +17,13 @@ Game::Game(string name){
 }
 bool Game::Init() {
     
-    sys.create(700,600,60,name,Style::Close);
-    env.load(resourcePath() + "back.png");
-    
+    sys.create(600,500,60,name,Style::Close);
+    if(!env.load(resourcePath() + "back.png")){
+        return false;
+    }
+    if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png")){
+        return false;
+    }
     return true;
 }
 void Game::run(){
@@ -29,6 +33,14 @@ void Game::run(){
             switch (event.type){
                 case Event::Closed:
                     sys.window.close();
+                    break;
+                case Event::KeyPressed:
+                    if(event.key.code == Keyboard::Key::Down){
+                    Menu.moveDown();
+                    }else  if(event.key.code == Keyboard::Key::Up){
+                        Menu.moveUp();
+                    }
+                    
                     break;
                 default:
                     
@@ -45,7 +57,7 @@ void Game::run(){
         sys.window.clear();
         
         env.draw(sys.window);
-        
+        Menu.draw(sys.window);
         sys.window.display();
     }
 }

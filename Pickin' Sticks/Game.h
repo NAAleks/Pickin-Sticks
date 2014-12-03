@@ -14,6 +14,7 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 #include "System.h"
+#include "MainMenu.h"
 #include "Environment.h"
 using namespace std;
 using namespace sf;
@@ -26,6 +27,7 @@ public:
     System sys;
     Event event;
     Enviroment env;
+    MainMenu Menu;
     
 };
 
