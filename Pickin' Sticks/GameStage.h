@@ -13,17 +13,18 @@
 #include "Environment.h"
 #include "System.h"
 #include <SFML/Graphics.hpp>
+#include "Player.h"
 using namespace sf;
 using namespace std;
 class GameStage{
 public:
-    bool init(string envBackgroundPath);
-    void run();
+    bool init(string envBackgroundPath,string envFontPath,string envStickTexturePath, string PlayerSpritePath);
+    void run(RenderWindow &win, Event &event);
     void pause(); // for future use if I add a pause menu
     void Exit();
     Enviroment env;
-    
-    
+    bool isActive;
+    Player player;
     
     
 private:

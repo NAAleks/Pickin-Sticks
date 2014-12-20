@@ -16,13 +16,16 @@ using namespace sf;
 using namespace std;
 class Enviroment{
 public:
-    bool load(string texturepath);
+    bool load(string backgroundTexturePath,string fontPath,string StickTexturePath);
     void draw(RenderWindow &win);
     Enviroment();
-    
+    Sprite StickSprite;
+    Text score;
+    Font font;
 private:
     Texture backgroundTexture;
     Sprite background;
+    Texture StickTexture;
     
 };
 #endif /* defined(__Pickin__Sticks__Environment__) */

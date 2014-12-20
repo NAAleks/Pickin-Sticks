@@ -29,6 +29,7 @@ public:
     Event event;
     void actionButtonPressed();
     MainMenu Menu;
+    GameStage Stage;
     
 };
 

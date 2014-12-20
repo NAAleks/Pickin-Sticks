@@ -8,7 +8,7 @@
 
 #include "Game.h"
 #include "ResourcePath.hpp"
-#include "System.h"
+
 Game::Game(string name){
     name = name;
     
@@ -21,6 +21,10 @@ bool Game::Init() {
     if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png", resourcePath() + "HowToPlay.jpg")){
         return false;
     }
+    if(!Stage.init(resourcePath() + "Back.png",resourcePath() + "Arial.ttf", resourcePath() + "stick.png", resourcePath() + "Player.png")){
+        return false;
+
+    }
     return true;
 }
 void Game::actionButtonPressed(){
@@ -29,7 +33,8 @@ void Game::actionButtonPressed(){
         
         switch (Menu.selected) {
             case 0: //if Play is selected
-                
+                cout << "Running the Stage" << endl;
+                Stage.run(sys.window,event);
                 break;
             case 1: //if How to play is selected
                  Menu.TutorialIsPresant = true;
@@ -53,7 +58,7 @@ void Game::actionButtonPressed(){
         }
         
         
-        
+
         
         
         
@@ -90,6 +95,7 @@ void Game::run(){
         }
         
         
+
         
         sys.window.clear();
         

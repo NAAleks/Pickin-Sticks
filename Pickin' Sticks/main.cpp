@@ -7,7 +7,7 @@ int main(int, char const**)
     Game game("Pickin' Sticks");
     if(!game.Init()){
         cout << "Error While Initiliizing the Game :( " << endl;
-        return 1;
+        return 0;
     }
     
     game.run();
