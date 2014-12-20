@@ -21,6 +21,10 @@ void MainMenu::moveUp(){
         options[selected].setColor(Color::White);
         selected--;
         options[selected].setColor(Color::Red);
+    }else {
+        options[selected].setColor(Color::White);
+        selected = MAX_NUMBER_OF_ITEMS - 1;
+        options[selected].setColor(Color::Red);
     }
     
 }
@@ -29,15 +33,17 @@ void MainMenu::moveDown(){
         options[selected].setColor(Color::White);
         selected++;
         options[selected].setColor(Color::Red);
+    }else {
+        options[selected].setColor(Color::White);
+        selected = 0;
+        options[selected].setColor(Color::Red);
     }
     
 }
-void  MainMenu::select(){
-    
-}
 
 
-bool MainMenu::loadFiles(string pathforthefont,string MenuTexturePath){
+
+bool MainMenu::loadFiles(string pathforthefont,string MenuTexturePath,string howToPlayImagePath){
     if(!menuTexture.loadFromFile(MenuTexturePath)){
         cout << "Error While Loading the Menu Texture From Path " <<  MenuTexturePath << endl << "Exiting" << endl;
         return false;
@@ -46,7 +52,13 @@ bool MainMenu::loadFiles(string pathforthefont,string MenuTexturePath){
         cout << "Error while loadting the file " << pathforthefont << endl;
         return false;
     }
+    if(!howToPlay.loadFromFile(howToPlayImagePath)){
+        cout << "Error while loadting the file " << howToPlayImagePath << endl;
+        return false;
+    }
     menuGFX.setTexture(menuTexture);
+    isActive = true;
+    howToPlaySprite.setTexture(howToPlay);
     
     options[0].setFont(font);
     options[0].setString("Play");

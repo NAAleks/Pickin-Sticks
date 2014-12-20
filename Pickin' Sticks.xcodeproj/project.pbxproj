@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */; };
 		FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA23DF011A2E1A78008E8F7B /* Arial.ttf */; };
+		FA2E23D61A450E77000C2404 /* HowToPlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2E23D51A450E77000C2404 /* HowToPlay.jpg */; };
+		FA2E23D91A45108B000C2404 /* GameStage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2E23D71A45108B000C2404 /* GameStage.cpp */; };
 		FAB46CDD1A2BEE5400181DF8 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */; };
 		FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDF1A2BEE5400181DF8 /* main.cpp */; };
 		FAB46CF21A2BF1D700181DF8 /* Baurn_Moosader.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */; };
@@ -23,6 +25,9 @@
 /* Begin PBXFileReference section */
 		FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackGround.png; sourceTree = "<group>"; };
 		FA23DF011A2E1A78008E8F7B /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
+		FA2E23D51A450E77000C2404 /* HowToPlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HowToPlay.jpg; sourceTree = "<group>"; };
+		FA2E23D71A45108B000C2404 /* GameStage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStage.cpp; sourceTree = "<group>"; };
+		FA2E23D81A45108B000C2404 /* GameStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStage.h; sourceTree = "<group>"; };
 		FAB46CD71A2BEE5400181DF8 /* Pickin' Sticks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pickin' Sticks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB46CDB1A2BEE5400181DF8 /* Pickin' Sticks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickin' Sticks-Info.plist"; sourceTree = "<group>"; };
 		FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -74,10 +79,12 @@
 				FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */,
 				FAB46CDE1A2BEE5400181DF8 /* ResourcePath.hpp */,
 				FAB46CDF1A2BEE5400181DF8 /* main.cpp */,
+				FA2E23D71A45108B000C2404 /* GameStage.cpp */,
+				FA2E23D81A45108B000C2404 /* GameStage.h */,
 				FAB46CF51A2BF1EF00181DF8 /* Game.cpp */,
+				FAB46CF61A2BF1EF00181DF8 /* Game.h */,
 				FAC189491A2CC75D008D7CAD /* MainMenu.cpp */,
 				FAC1894A1A2CC75D008D7CAD /* MainMenu.h */,
-				FAB46CF61A2BF1EF00181DF8 /* Game.h */,
 				FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */,
 				FAB46CFF1A2BF9C700181DF8 /* Environment.h */,
 				FAB46CF81A2BF3BA00181DF8 /* System.cpp */,
@@ -102,6 +109,7 @@
 				FA23DF011A2E1A78008E8F7B /* Arial.ttf */,
 				FAB46D051A2BFE1D00181DF8 /* Back.png */,
 				FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */,
+				FA2E23D51A450E77000C2404 /* HowToPlay.jpg */,
 				FAB46CEF1A2BF1D700181DF8 /* Baurn_Moosader.png */,
 				FAB46CF11A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png */,
 			);
@@ -166,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */,
+				FA2E23D61A450E77000C2404 /* HowToPlay.jpg in Resources */,
 				FAB46CF41A2BF1D700181DF8 /* LegacyOfZudora_Moosader.png in Resources */,
 				FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */,
 				FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */,
@@ -198,6 +207,7 @@
 			files = (
 				FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */,
 				FAC1894B1A2CC75D008D7CAD /* MainMenu.cpp in Sources */,
+				FA2E23D91A45108B000C2404 /* GameStage.cpp in Sources */,
 				FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */,
 				FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */,
 				FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */,

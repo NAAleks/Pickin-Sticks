@@ -17,15 +17,17 @@ using namespace std;
 class MainMenu{
 public:
     void draw(RenderWindow &win);
-    bool loadFiles(string pathforthefont,string MenuTexturePath);
+    bool loadFiles(string pathforthefont,string MenuTexturePath,string howToPlayImagePath);
     Sprite menuGFX;
     Texture menuTexture;
+    Texture howToPlay;
+    Sprite howToPlaySprite;
     Font font;
     Text options[MAX_NUMBER_OF_ITEMS];
     bool isActive;
     int selected;
+    bool TutorialIsPresant;
     void moveUp();
     void moveDown();
-    void select();
 };
 #endif /* defined(__Pickin__Sticks__MainMenu__) */

@@ -18,13 +18,46 @@ Game::Game(string name){
 bool Game::Init() {
     
     sys.create(600,500,60,name,Style::Close);
-    if(!env.load(resourcePath() + "back.png")){
-        return false;
-    }
-    if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png")){
+    if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png", resourcePath() + "HowToPlay.jpg")){
         return false;
     }
     return true;
+}
+void Game::actionButtonPressed(){
+//    cout << "Action Button Pressed" << endl;
+    if(Menu.isActive){
+        
+        switch (Menu.selected) {
+            case 0: //if Play is selected
+                
+                break;
+            case 1: //if How to play is selected
+                 Menu.TutorialIsPresant = true;
+                while(Menu.TutorialIsPresant){
+                    while (sys.window.pollEvent(event)){
+                        if(event.type == Event::KeyPressed && event.key.code == Keyboard::Key::Escape){
+                            Menu.TutorialIsPresant = false;
+                        }
+                     sys.window.clear();
+                    sys.window.draw(Menu.howToPlaySprite);
+                    sys.window.display();
+                    }
+                }
+                break;
+            case 2: // if Exit is selected
+                sys.window.close();
+                break;
+            default:
+                cout << "Something Went Wrong with the Menu Item that you Selected" << endl;
+                break;
+        }
+        
+        
+        
+        
+        
+        
+    }
 }
 void Game::run(){
     
@@ -36,9 +69,13 @@ void Game::run(){
                     break;
                 case Event::KeyPressed:
                     if(event.key.code == Keyboard::Key::Down){
-                    Menu.moveDown();
+                        Menu.moveDown();
+//                        cout << "You Selected " << (string) Menu.options[Menu.selected].getString() << endl;
                     }else  if(event.key.code == Keyboard::Key::Up){
                         Menu.moveUp();
+//                        cout << "You Selected " << (string) Menu.options[Menu.selected].getString() << endl;
+                    }else if(event.key.code == Keyboard::Key::Space){
+                        actionButtonPressed();
                     }
                     
                     break;
@@ -56,7 +93,6 @@ void Game::run(){
         
         sys.window.clear();
         
-        env.draw(sys.window);
         Menu.draw(sys.window);
         sys.window.display();
     }

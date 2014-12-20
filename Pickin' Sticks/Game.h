@@ -16,6 +16,7 @@
 #include "System.h"
 #include "MainMenu.h"
 #include "Environment.h"
+#include "GameStage.h"
 using namespace std;
 using namespace sf;
 class Game{
@@ -26,7 +27,7 @@ public:
     void run();
     System sys;
     Event event;
-    Enviroment env;
+    void actionButtonPressed();
     MainMenu Menu;
     
 };
