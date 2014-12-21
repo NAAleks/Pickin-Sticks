@@ -25,7 +25,8 @@ public:
     Enviroment env;
     bool isActive;
     Player player;
-    
+    Clock clock;
+    Time deltaTime;
     
 private:
     System sys;

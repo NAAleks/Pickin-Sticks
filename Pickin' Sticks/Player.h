@@ -11,12 +11,14 @@ using namespace sf;
 class Player{
 public:
     bool init(string SpriteSheetpath,int w,int h,int x, int y);
-    void move(int x,int y);
+    void move(int x,int y,int direction,float speed);
     void update(RenderWindow &win);
-    int checkForCollision();
+    int checkForCollision(RenderWindow &win,vector<Sprite> otherObjects);
     Sprite sprite;
-    
-    
+    int checkForCollision(RenderWindow &win);
+    int spriteWidth;
+    int spriteHeight;
+    int speed;
 private:
     Texture texture;
     

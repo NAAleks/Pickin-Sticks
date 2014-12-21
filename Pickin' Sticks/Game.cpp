@@ -17,7 +17,7 @@ Game::Game(string name){
 }
 bool Game::Init() {
     
-    sys.create(600,500,60,name,Style::Close);
+    sys.create(600,500,0,name,Style::Close);
     if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png", resourcePath() + "HowToPlay.jpg")){
         return false;
     }
@@ -95,7 +95,6 @@ void Game::run(){
         }
         
         
-
         
         sys.window.clear();
         
