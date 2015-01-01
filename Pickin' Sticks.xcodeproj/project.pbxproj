@@ -55,6 +55,9 @@
 		FA2E23DA1A451D5C000C2404 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		FA2E23DB1A451D5C000C2404 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		FA2E23DD1A451E65000C2404 /* Stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stick.png; sourceTree = "<group>"; };
+		FA59A0F11A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-01 at 5.26.12 PM.png"; sourceTree = "<group>"; };
+		FA59A0F21A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-01 at 5.26.22 PM.png"; sourceTree = "<group>"; };
+		FA59A0F31A56022200E072AF /* Screen Shot 2015-01-01 at 5.27.17 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-01 at 5.27.17 PM.png"; sourceTree = "<group>"; };
 		FAB46CD71A2BEE5400181DF8 /* Pickin' Sticks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pickin' Sticks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB46CDB1A2BEE5400181DF8 /* Pickin' Sticks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickin' Sticks-Info.plist"; sourceTree = "<group>"; };
 		FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 		FA1DDC951A55FE31003F84E9 /* Raw_Code */ = {
 			isa = PBXGroup;
 			children = (
+				FA59A0F01A56022200E072AF /* Screenshoots */,
 				FA1DDC961A55FE31003F84E9 /* Assets */,
 				FA1DDC9E1A55FE32003F84E9 /* Environment.cpp */,
 				FA1DDC9F1A55FE32003F84E9 /* Environment.h */,
@@ -117,6 +121,16 @@
 				FA1DDC9D1A55FE32003F84E9 /* Stick.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		FA59A0F01A56022200E072AF /* Screenshoots */ = {
+			isa = PBXGroup;
+			children = (
+				FA59A0F11A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.12 PM.png */,
+				FA59A0F21A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.22 PM.png */,
+				FA59A0F31A56022200E072AF /* Screen Shot 2015-01-01 at 5.27.17 PM.png */,
+			);
+			path = Screenshoots;
 			sourceTree = "<group>";
 		};
 		FAB46CCD1A2BEE5400181DF8 = {
