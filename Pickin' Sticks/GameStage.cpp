@@ -24,6 +24,8 @@ void GameStage::run(RenderWindow &win, Event &event){
     int direction = 0;
     clock.restart().asMilliseconds();
     deltaTime = clock.restart();
+    AnimationClock.restart();
+    
     while (isActive) {
         if(deltaTime.asMilliseconds() >= 1000/60){
         xmovement = 0;
@@ -39,6 +41,9 @@ void GameStage::run(RenderWindow &win, Event &event){
                         default:
                             break;
                     }
+                    break;
+                case Event::KeyReleased:
+                    player.xSprite = 1;
                     break;
                 case Event::Closed:
                     isActive = false;
@@ -83,7 +88,7 @@ void GameStage::run(RenderWindow &win, Event &event){
             ymovement--;
             direction = 1;
         }
-        if(Keyboard::isKeyPressed(Keyboard::Right) && playerCollision !=2 && playerCollision !=6 && playerCollision !=8){
+        else if(Keyboard::isKeyPressed(Keyboard::Right) && playerCollision !=2 && playerCollision !=6 && playerCollision !=8){
             xmovement++;
             direction = 3;
             
@@ -93,12 +98,15 @@ void GameStage::run(RenderWindow &win, Event &event){
             
             
         }
-
+            if(player.checkForCollisionWithObject(env.StickSprite)){
+                env.spawnAStick(win.getSize().x,win.getSize().y);
+                env.score++;
+            }
         win.clear();
         env.draw(win);
         player.update(win);
        
-        player.move(xmovement, ymovement,direction,10);
+        player.move(xmovement, ymovement,direction,2,AnimationClock,deltaTime,env.score);
         
         win.display();
         deltaTime = clock.restart();

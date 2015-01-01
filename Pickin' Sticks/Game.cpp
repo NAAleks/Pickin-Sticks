@@ -11,12 +11,12 @@
 
 Game::Game(string name){
     name = name;
-    
-    
-    
+
+
+
 }
 bool Game::Init() {
-    
+
     sys.create(600,500,0,name,Style::Close);
     if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png", resourcePath() + "HowToPlay.jpg")){
         return false;
@@ -27,10 +27,11 @@ bool Game::Init() {
     }
     return true;
 }
+
 void Game::actionButtonPressed(){
 //    cout << "Action Button Pressed" << endl;
     if(Menu.isActive){
-        
+
         switch (Menu.selected) {
             case 0: //if Play is selected
                 cout << "Running the Stage" << endl;

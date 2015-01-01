@@ -18,14 +18,17 @@ class Enviroment{
 public:
     bool load(string backgroundTexturePath,string fontPath,string StickTexturePath);
     void draw(RenderWindow &win);
+    void spawnAStick(int w, int h);
     Enviroment();
     Sprite StickSprite;
-    Text score;
+    Text scoreDisplay;
     Font font;
+    int score;
 private:
     Texture backgroundTexture;
     Sprite background;
     Texture StickTexture;
+    
     
 };
 #endif /* defined(__Pickin__Sticks__Environment__) */
