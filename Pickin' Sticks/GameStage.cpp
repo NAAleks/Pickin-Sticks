@@ -82,14 +82,17 @@ void GameStage::run(RenderWindow &win, Event &event){
          */
         if(Keyboard::isKeyPressed(Keyboard::Down) && playerCollision !=3 && playerCollision !=7 && playerCollision !=8){
             ymovement++;
+            xmovement = 0;
             direction = 0;
             
         }else if(Keyboard::isKeyPressed(Keyboard::Up) && playerCollision !=4 && playerCollision !=5 && playerCollision !=6){
             ymovement--;
+            xmovement = 0;
             direction = 1;
         }
         else if(Keyboard::isKeyPressed(Keyboard::Right) && playerCollision !=2 && playerCollision !=6 && playerCollision !=8){
             xmovement++;
+            ymovement = 0;
             direction = 3;
             
         }else  if(Keyboard::isKeyPressed(Keyboard::Left) && playerCollision !=1 && playerCollision !=5 && playerCollision !=7){
