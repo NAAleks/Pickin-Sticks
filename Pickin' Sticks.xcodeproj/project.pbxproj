@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1DDCAC1A55FF08003F84E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1DDCAB1A55FF08003F84E9 /* Images.xcassets */; };
 		FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */; };
 		FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA23DF011A2E1A78008E8F7B /* Arial.ttf */; };
 		FA2E23D61A450E77000C2404 /* HowToPlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2E23D51A450E77000C2404 /* HowToPlay.jpg */; };
@@ -45,6 +46,7 @@
 		FA1DDCA81A55FE32003F84E9 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		FA1DDCA91A55FE32003F84E9 /* System.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = System.cpp; sourceTree = "<group>"; };
 		FA1DDCAA1A55FE32003F84E9 /* System.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		FA1DDCAB1A55FF08003F84E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackGround.png; sourceTree = "<group>"; };
 		FA23DF011A2E1A78008E8F7B /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 		FA2E23D51A450E77000C2404 /* HowToPlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HowToPlay.jpg; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				FAB46CF81A2BF3BA00181DF8 /* System.cpp */,
 				FAB46CF91A2BF3BA00181DF8 /* System.h */,
 				FAB46CE11A2BEE5400181DF8 /* Resources */,
+				FA1DDCAB1A55FF08003F84E9 /* Images.xcassets */,
 				FAB46CDA1A2BEE5400181DF8 /* Supporting Files */,
 			);
 			path = "Pickin' Sticks";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */,
+				FA1DDCAC1A55FF08003F84E9 /* Images.xcassets in Resources */,
 				FA2E23D61A450E77000C2404 /* HowToPlay.jpg in Resources */,
 				FAB46CF41A2BF1D700181DF8 /* Env.png in Resources */,
 				FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */,
@@ -391,6 +395,7 @@
 		FAB46CED1A2BEE5400181DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pickin' Sticks/Pickin' Sticks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -399,6 +404,7 @@
 		FAB46CEE1A2BEE5400181DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pickin' Sticks/Pickin' Sticks-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
