@@ -58,7 +58,8 @@ int Player::checkForCollisionWithObject(Sprite &object){
      8 - something is colliding with the bottom and the right side of the player
      
      */
-    if(Player::sprite.getGlobalBounds().intersects(object.getGlobalBounds())){
+    FloatRect obj(object.getPosition().x + object.getGlobalBounds().width *.1 , object.getPosition().y +  object.getGlobalBounds().height *.1, object.getGlobalBounds().width *.90,object.getGlobalBounds().height *.90);
+    if(Player::sprite.getGlobalBounds().intersects(obj)){
         
     
     
