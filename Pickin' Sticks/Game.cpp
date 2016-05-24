@@ -21,7 +21,7 @@ bool Game::Init() {
     if(!Menu.loadFiles(resourcePath() + "arial.ttf",  resourcePath() + "MenuBackGround.png", resourcePath() + "HowToPlay.jpg")){
         return false;
     }
-    if(!Stage.init(resourcePath() + "Back.png",resourcePath() + "Arial.ttf", resourcePath() + "stick.png", resourcePath() + "Player.png")){
+    if(!Stage.init(resourcePath() + "Back.png",resourcePath() + "Arial.ttf", resourcePath() + "stick.png", resourcePath() + "Player.png",resourcePath() + "obs.png")){
         return false;
 
     }

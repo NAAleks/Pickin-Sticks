@@ -2,9 +2,10 @@
 
 #include "GameStage.h"
 #include <SFML/System.hpp>
-
-bool GameStage::init(string envBackgroundPath,string envFontPath,string envStickTexturePath, string PlayerSpritePath){
-    if(!env.load(envBackgroundPath,envFontPath,envStickTexturePath)){
+#include "GameOver.hpp"
+#include "ResourcePath.hpp"
+bool GameStage::init(string envBackgroundPath,string envFontPath,string envStickTexturePath, string PlayerSpritePath,string obsPath){
+    if(!env.load(envBackgroundPath,envFontPath,envStickTexturePath,obsPath)){
         cout << "Failed to load File form " << envBackgroundPath << endl;
         return false;
     }
@@ -12,10 +13,21 @@ bool GameStage::init(string envBackgroundPath,string envFontPath,string envStick
         cout << "Failed to load File form " << PlayerSpritePath << endl;
         return false;
     }
+    if(!gg.init(resourcePath() + "GameOver.png")) {
+        cout << "Failed to load the Game Over " << endl;
+        return false;
+    }
     
-    
-    
+    highScore = 0;
     return true;
+}
+void GameStage::reset(){
+    if (env.score > highScore){
+        highScore = env.score;
+    }
+    env.score = -1;
+    player.sprite.setPosition(10, 10);
+    env.spawnAStick(sys.window.getSize().x, sys.window.getSize().y);
 }
 void GameStage::run(RenderWindow &win, Event &event){
     isActive = true;
@@ -104,7 +116,18 @@ void GameStage::run(RenderWindow &win, Event &event){
             if(player.checkForCollisionWithObject(env.StickSprite)){
                 env.spawnAStick(win.getSize().x,win.getSize().y);
                 env.score++;
+                env.spawnObstricles(win.getSize().x, win.getSize().y, player, env.score);
             }
+            
+            for (unsigned int i = 0;i < env.obs.size(); i++){
+                if(player.checkForCollisionWithObject(env.obs.at(i))){
+                    gg.run(win,env.score,highScore);
+                    reset();
+                    
+                }
+            }
+            
+            
         win.clear();
         env.draw(win);
         player.update(win);
@@ -113,7 +136,7 @@ void GameStage::run(RenderWindow &win, Event &event){
         
         win.display();
         deltaTime = clock.restart();
-        cout << "Delta Time is " << deltaTime.asMilliseconds() <<endl;
+//        cout << "Delta Time is " << deltaTime.asMilliseconds() <<endl;
     }
         deltaTime = clock.getElapsedTime();
     }

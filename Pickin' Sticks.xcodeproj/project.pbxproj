@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA152BF51CF28C4C005B990A /* obs.png in Resources */ = {isa = PBXBuildFile; fileRef = FA152BF41CF28C4C005B990A /* obs.png */; };
 		FA1DDCAC1A55FF08003F84E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1DDCAB1A55FF08003F84E9 /* Images.xcassets */; };
 		FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */; };
 		FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA23DF011A2E1A78008E8F7B /* Arial.ttf */; };
+		FA2B98641CF3F6CC00CCADAD /* GameOver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2B98621CF3F6CC00CCADAD /* GameOver.cpp */; };
+		FA2B98661CF4012100CCADAD /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2B98651CF4012100CCADAD /* GameOver.png */; };
 		FA2E23D61A450E77000C2404 /* HowToPlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2E23D51A450E77000C2404 /* HowToPlay.jpg */; };
 		FA2E23D91A45108B000C2404 /* GameStage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2E23D71A45108B000C2404 /* GameStage.cpp */; };
 		FA2E23DC1A451D5C000C2404 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2E23DA1A451D5C000C2404 /* Player.cpp */; };
@@ -26,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA152BF41CF28C4C005B990A /* obs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obs.png; sourceTree = "<group>"; };
 		FA1DDC971A55FE32003F84E9 /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
 		FA1DDC981A55FE32003F84E9 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 		FA1DDC991A55FE32003F84E9 /* Env.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Env.png; sourceTree = "<group>"; };
@@ -49,6 +53,9 @@
 		FA1DDCAB1A55FF08003F84E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackGround.png; sourceTree = "<group>"; };
 		FA23DF011A2E1A78008E8F7B /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
+		FA2B98621CF3F6CC00CCADAD /* GameOver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOver.cpp; sourceTree = "<group>"; };
+		FA2B98631CF3F6CC00CCADAD /* GameOver.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameOver.hpp; sourceTree = "<group>"; };
+		FA2B98651CF4012100CCADAD /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
 		FA2E23D51A450E77000C2404 /* HowToPlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HowToPlay.jpg; sourceTree = "<group>"; };
 		FA2E23D71A45108B000C2404 /* GameStage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStage.cpp; sourceTree = "<group>"; };
 		FA2E23D81A45108B000C2404 /* GameStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStage.h; sourceTree = "<group>"; };
@@ -163,6 +170,8 @@
 				FAC1894A1A2CC75D008D7CAD /* MainMenu.h */,
 				FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */,
 				FAB46CFF1A2BF9C700181DF8 /* Environment.h */,
+				FA2B98621CF3F6CC00CCADAD /* GameOver.cpp */,
+				FA2B98631CF3F6CC00CCADAD /* GameOver.hpp */,
 				FA2E23DA1A451D5C000C2404 /* Player.cpp */,
 				FA2E23DB1A451D5C000C2404 /* Player.h */,
 				FAB46CF81A2BF3BA00181DF8 /* System.cpp */,
@@ -185,6 +194,8 @@
 		FAB46CE11A2BEE5400181DF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA2B98651CF4012100CCADAD /* GameOver.png */,
+				FA152BF41CF28C4C005B990A /* obs.png */,
 				FA1DDC951A55FE31003F84E9 /* Raw_Code */,
 				FA23DF011A2E1A78008E8F7B /* Arial.ttf */,
 				FAB46D051A2BFE1D00181DF8 /* Back.png */,
@@ -257,11 +268,13 @@
 				FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */,
 				FA1DDCAC1A55FF08003F84E9 /* Images.xcassets in Resources */,
 				FA2E23D61A450E77000C2404 /* HowToPlay.jpg in Resources */,
+				FA152BF51CF28C4C005B990A /* obs.png in Resources */,
 				FAB46CF41A2BF1D700181DF8 /* Env.png in Resources */,
 				FA23DF001A2E19EF008E8F7B /* MenuBackGround.png in Resources */,
 				FA23DF021A2E1A78008E8F7B /* Arial.ttf in Resources */,
 				FA2E23DE1A451E65000C2404 /* Stick.png in Resources */,
 				FAB46CF21A2BF1D700181DF8 /* Player.png in Resources */,
+				FA2B98661CF4012100CCADAD /* GameOver.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +306,7 @@
 				FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */,
 				FAC1894B1A2CC75D008D7CAD /* MainMenu.cpp in Sources */,
 				FA2E23D91A45108B000C2404 /* GameStage.cpp in Sources */,
+				FA2B98641CF3F6CC00CCADAD /* GameOver.cpp in Sources */,
 				FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */,
 				FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */,
 				FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */,

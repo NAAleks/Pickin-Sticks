@@ -12,11 +12,12 @@
 #include <stdio.h>
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include "Player.h"
 using namespace sf;
 using namespace std;
 class Enviroment{
 public:
-    bool load(string backgroundTexturePath,string fontPath,string StickTexturePath);
+    bool load(string backgroundTexturePath,string fontPath,string StickTexturePath,string obsPath);
     void draw(RenderWindow &win);
     void spawnAStick(int w, int h);
     Enviroment();
@@ -24,10 +25,15 @@ public:
     Text scoreDisplay;
     Font font;
     int score;
+    Sprite Osprite;
+    void spawnObstricles(int w,int h,Player player,int count);
+    vector<Sprite> obs;
+    Texture Otexture; 
 private:
     Texture backgroundTexture;
     Sprite background;
     Texture StickTexture;
+    bool checkBoundries(Sprite a, Sprite b,int x, int y);
     
     
 };
