@@ -17,39 +17,19 @@
 		FA2E23D91A45108B000C2404 /* GameStage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2E23D71A45108B000C2404 /* GameStage.cpp */; };
 		FA2E23DC1A451D5C000C2404 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2E23DA1A451D5C000C2404 /* Player.cpp */; };
 		FA2E23DE1A451E65000C2404 /* Stick.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2E23DD1A451E65000C2404 /* Stick.png */; };
+		FA2EF7861D11FED900EEEC47 /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2EF7841D11FED900EEEC47 /* Environment.cpp */; };
 		FAB46CDD1A2BEE5400181DF8 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */; };
 		FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CDF1A2BEE5400181DF8 /* main.cpp */; };
 		FAB46CF21A2BF1D700181DF8 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CEF1A2BF1D700181DF8 /* Player.png */; };
 		FAB46CF41A2BF1D700181DF8 /* Env.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46CF11A2BF1D700181DF8 /* Env.png */; };
 		FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CF51A2BF1EF00181DF8 /* Game.cpp */; };
 		FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CF81A2BF3BA00181DF8 /* System.cpp */; };
-		FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */; };
 		FAB46D061A2BFE1D00181DF8 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB46D051A2BFE1D00181DF8 /* Back.png */; };
 		FAC1894B1A2CC75D008D7CAD /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC189491A2CC75D008D7CAD /* MainMenu.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA152BF41CF28C4C005B990A /* obs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obs.png; sourceTree = "<group>"; };
-		FA1DDC971A55FE32003F84E9 /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
-		FA1DDC981A55FE32003F84E9 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
-		FA1DDC991A55FE32003F84E9 /* Env.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Env.png; sourceTree = "<group>"; };
-		FA1DDC9A1A55FE32003F84E9 /* HowToPlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HowToPlay.jpg; sourceTree = "<group>"; };
-		FA1DDC9B1A55FE32003F84E9 /* MenuBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackGround.png; sourceTree = "<group>"; };
-		FA1DDC9C1A55FE32003F84E9 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
-		FA1DDC9D1A55FE32003F84E9 /* Stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stick.png; sourceTree = "<group>"; };
-		FA1DDC9E1A55FE32003F84E9 /* Environment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Environment.cpp; sourceTree = "<group>"; };
-		FA1DDC9F1A55FE32003F84E9 /* Environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
-		FA1DDCA01A55FE32003F84E9 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
-		FA1DDCA11A55FE32003F84E9 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		FA1DDCA21A55FE32003F84E9 /* GameStage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameStage.cpp; sourceTree = "<group>"; };
-		FA1DDCA31A55FE32003F84E9 /* GameStage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameStage.h; sourceTree = "<group>"; };
-		FA1DDCA41A55FE32003F84E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		FA1DDCA51A55FE32003F84E9 /* MainMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
-		FA1DDCA61A55FE32003F84E9 /* MainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
-		FA1DDCA71A55FE32003F84E9 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
-		FA1DDCA81A55FE32003F84E9 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		FA1DDCA91A55FE32003F84E9 /* System.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = System.cpp; sourceTree = "<group>"; };
-		FA1DDCAA1A55FE32003F84E9 /* System.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
 		FA1DDCAB1A55FF08003F84E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackGround.png; sourceTree = "<group>"; };
 		FA23DF011A2E1A78008E8F7B /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
@@ -62,9 +42,8 @@
 		FA2E23DA1A451D5C000C2404 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		FA2E23DB1A451D5C000C2404 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		FA2E23DD1A451E65000C2404 /* Stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stick.png; sourceTree = "<group>"; };
-		FA59A0F11A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-01 at 5.26.12 PM.png"; sourceTree = "<group>"; };
-		FA59A0F21A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-01 at 5.26.22 PM.png"; sourceTree = "<group>"; };
-		FA59A0F31A56022200E072AF /* Screen Shot 2015-01-01 at 5.27.17 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-01-01 at 5.27.17 PM.png"; sourceTree = "<group>"; };
+		FA2EF7841D11FED900EEEC47 /* Environment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Environment.cpp; sourceTree = "<group>"; };
+		FA2EF7851D11FED900EEEC47 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
 		FAB46CD71A2BEE5400181DF8 /* Pickin' Sticks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pickin' Sticks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB46CDB1A2BEE5400181DF8 /* Pickin' Sticks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickin' Sticks-Info.plist"; sourceTree = "<group>"; };
 		FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
@@ -76,8 +55,6 @@
 		FAB46CF61A2BF1EF00181DF8 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		FAB46CF81A2BF3BA00181DF8 /* System.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = System.cpp; sourceTree = "<group>"; };
 		FAB46CF91A2BF3BA00181DF8 /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
-		FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Environment.cpp; path = ../Environment.cpp; sourceTree = "<group>"; };
-		FAB46CFF1A2BF9C700181DF8 /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Environment.h; path = ../Environment.h; sourceTree = "<group>"; };
 		FAB46D051A2BFE1D00181DF8 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 		FAC189491A2CC75D008D7CAD /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
 		FAC1894A1A2CC75D008D7CAD /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
@@ -94,52 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA1DDC951A55FE31003F84E9 /* Raw_Code */ = {
-			isa = PBXGroup;
-			children = (
-				FA59A0F01A56022200E072AF /* Screenshoots */,
-				FA1DDC961A55FE31003F84E9 /* Assets */,
-				FA1DDC9E1A55FE32003F84E9 /* Environment.cpp */,
-				FA1DDC9F1A55FE32003F84E9 /* Environment.h */,
-				FA1DDCA01A55FE32003F84E9 /* Game.cpp */,
-				FA1DDCA11A55FE32003F84E9 /* Game.h */,
-				FA1DDCA21A55FE32003F84E9 /* GameStage.cpp */,
-				FA1DDCA31A55FE32003F84E9 /* GameStage.h */,
-				FA1DDCA41A55FE32003F84E9 /* main.cpp */,
-				FA1DDCA51A55FE32003F84E9 /* MainMenu.cpp */,
-				FA1DDCA61A55FE32003F84E9 /* MainMenu.h */,
-				FA1DDCA71A55FE32003F84E9 /* Player.cpp */,
-				FA1DDCA81A55FE32003F84E9 /* Player.h */,
-				FA1DDCA91A55FE32003F84E9 /* System.cpp */,
-				FA1DDCAA1A55FE32003F84E9 /* System.h */,
-			);
-			path = Raw_Code;
-			sourceTree = "<group>";
-		};
-		FA1DDC961A55FE31003F84E9 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				FA1DDC971A55FE32003F84E9 /* Arial.ttf */,
-				FA1DDC981A55FE32003F84E9 /* Back.png */,
-				FA1DDC991A55FE32003F84E9 /* Env.png */,
-				FA1DDC9A1A55FE32003F84E9 /* HowToPlay.jpg */,
-				FA1DDC9B1A55FE32003F84E9 /* MenuBackGround.png */,
-				FA1DDC9C1A55FE32003F84E9 /* Player.png */,
-				FA1DDC9D1A55FE32003F84E9 /* Stick.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		FA59A0F01A56022200E072AF /* Screenshoots */ = {
-			isa = PBXGroup;
-			children = (
-				FA59A0F11A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.12 PM.png */,
-				FA59A0F21A56022200E072AF /* Screen Shot 2015-01-01 at 5.26.22 PM.png */,
-				FA59A0F31A56022200E072AF /* Screen Shot 2015-01-01 at 5.27.17 PM.png */,
-			);
-			path = Screenshoots;
-			sourceTree = "<group>";
-		};
 		FAB46CCD1A2BEE5400181DF8 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +90,8 @@
 		FAB46CD91A2BEE5400181DF8 /* Pickin' Sticks */ = {
 			isa = PBXGroup;
 			children = (
+				FA2EF7841D11FED900EEEC47 /* Environment.cpp */,
+				FA2EF7851D11FED900EEEC47 /* Environment.h */,
 				FAB46CDC1A2BEE5400181DF8 /* ResourcePath.mm */,
 				FAB46CDE1A2BEE5400181DF8 /* ResourcePath.hpp */,
 				FAB46CDF1A2BEE5400181DF8 /* main.cpp */,
@@ -168,8 +101,6 @@
 				FAB46CF61A2BF1EF00181DF8 /* Game.h */,
 				FAC189491A2CC75D008D7CAD /* MainMenu.cpp */,
 				FAC1894A1A2CC75D008D7CAD /* MainMenu.h */,
-				FAB46CFE1A2BF9C700181DF8 /* Environment.cpp */,
-				FAB46CFF1A2BF9C700181DF8 /* Environment.h */,
 				FA2B98621CF3F6CC00CCADAD /* GameOver.cpp */,
 				FA2B98631CF3F6CC00CCADAD /* GameOver.hpp */,
 				FA2E23DA1A451D5C000C2404 /* Player.cpp */,
@@ -196,7 +127,6 @@
 			children = (
 				FA2B98651CF4012100CCADAD /* GameOver.png */,
 				FA152BF41CF28C4C005B990A /* obs.png */,
-				FA1DDC951A55FE31003F84E9 /* Raw_Code */,
 				FA23DF011A2E1A78008E8F7B /* Arial.ttf */,
 				FAB46D051A2BFE1D00181DF8 /* Back.png */,
 				FA23DEFF1A2E19EF008E8F7B /* MenuBackGround.png */,
@@ -305,10 +235,10 @@
 				FA2E23DC1A451D5C000C2404 /* Player.cpp in Sources */,
 				FAB46CFA1A2BF3BA00181DF8 /* System.cpp in Sources */,
 				FAC1894B1A2CC75D008D7CAD /* MainMenu.cpp in Sources */,
+				FA2EF7861D11FED900EEEC47 /* Environment.cpp in Sources */,
 				FA2E23D91A45108B000C2404 /* GameStage.cpp in Sources */,
 				FA2B98641CF3F6CC00CCADAD /* GameOver.cpp in Sources */,
 				FAB46CF71A2BF1EF00181DF8 /* Game.cpp in Sources */,
-				FAB46D001A2BF9C700181DF8 /* Environment.cpp in Sources */,
 				FAB46CE01A2BEE5400181DF8 /* main.cpp in Sources */,
 				FAB46CDD1A2BEE5400181DF8 /* ResourcePath.mm in Sources */,
 			);
