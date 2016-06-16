@@ -5,6 +5,8 @@ If you are on a Windows or a Linux Machine you can use [Code_Raw](Pickin' Sticks
 
 Screenshoots
 ============= 
-![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Pickin'%20Sticks/Raw_Code/Assets/HowToPlay.jpg)
-![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Pickin'%20Sticks/Raw_Code/Screenshoots/Screen%20Shot%202015-01-01%20at%205.26.12%20PM.png)
-![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Pickin'%20Sticks/Raw_Code/Screenshoots/Screen%20Shot%202015-01-01%20at%205.27.17%20PM.png)
+![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Screenshots%20/Screen%20Shot%202016-06-16%20at%2012.11.53%20AM.jpg)
+![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Screenshots%20/Screen%20Shot%202016-06-16%20at%2012.16.22%20AM.png)
+![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Screenshots%20/Screen%20Shot%202016-06-16%20at%2012.16.33%20AM.png)
+![alt tag](https://raw.githubusercontent.com/Alexthelionheart/Pickin-Sticks/master/Screenshots%20/Screen%20Shot%202016-06-16%20at%2012.16.45%20AM.png)
+
