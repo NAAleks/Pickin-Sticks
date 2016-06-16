@@ -1,7 +1,6 @@
 Pickin' Sticks 
 ============= 
 Pickin-Sticks. Yay :) Best. Game. Ever. Ignore all the things about All Right Received. The game is completely Open Source with Absolutely no license. It's just something Xcode Adds for every file you create. I will try to remove them but I might miss some.
-If you are on a Windows or a Linux Machine you can use [Code_Raw](Pickin' Sticks/Raw_Code) folder. 
 
 Screenshoots
 ============= 
